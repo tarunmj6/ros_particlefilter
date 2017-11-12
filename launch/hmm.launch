@@ -1,0 +1,9 @@
+<!-- -*- xml -*- -->
+<launch>
+    <node name="stage" pkg="stage_ros" type="stageros" required="true" 
+          ns="stage" args="$(find uml_hmm)/share/hmm.world" />
+    <node name="motor" pkg="uml_hmm" type="motor.py" required="true" 
+          output="screen" />
+    <node name="badsensor" pkg="uml_hmm" type="badsensor.py" required="true" 
+          output="screen" />
+</launch>

@@ -1,0 +1,17 @@
+
+include "common.inc"
+
+floorplan
+( 
+  name "HMM Localization"
+  bitmap "hmm.png"
+  size [60.0 10.0 1.0]
+)
+
+window
+( 
+  size [ 700 300 ] 
+  scale 10.0 
+)
+
+robot( pose [ -28 -2.5 0 0 ] )

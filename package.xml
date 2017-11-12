@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>uml_hmm</name>
+  <version>2.0.0</version>
+  <description>
+  Provides a world and launch file for a
+  simulated 1D world for implementing HMM localization.
+  </description>
+
+  <author>James Dalphond</author>
+  <maintainer email="James_Kuczynski@student.uml.edu">James Kuczynski</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>stage</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>stage</run_depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
